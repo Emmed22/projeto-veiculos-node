@@ -42,6 +42,7 @@ h1 {
 
 .container {
     width: 90%;
+    max-width: 1400px;
 
     margin: auto;
 
@@ -206,4 +207,128 @@ nav a.active {
     font-size: 18px;
 
     text-align: center;
+}
+
+.hero {
+    height: 500px;
+    min-height:500px;
+    max-height: 700px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('/img/banner.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+.hero-texto {
+    max-width: 800px;
+
+    padding: 20px;
+}
+
+.hero-texto h1 {
+    font-size: 60px;
+
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    font-size: 22px;
+
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #2563eb;
+
+    color: white;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #1d4ed8;
+}
+
+.categorias {
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 60px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.categoria-card {
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.categoria-card:hover {
+    transform: translateY(-8px);
+}
+
+.categoria-card h2 {
+    color: #2563eb;
+
+    margin-bottom: 15px;
+}
+
+.categoria-card a {
+    text-decoration: none;
+
+    color: inherit;
+}
+
+footer {
+    background-color: #0f172a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
