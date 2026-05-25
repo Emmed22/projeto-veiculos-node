@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ofertas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/quemsou">Quem Sou</a>
+        <a href="/ofertas" class="active">Ofertas</a>
+        <a href="/novos">Novos</a>
+        <a href="/seminovos">Seminovos</a>
+    </nav>
+    <h1> Veículos em Ofertas</h1>
+    <div class="container">
+        <% ofertas.forEach(oferta=> { %>
+            <div class="card">
+                <img src="<%= oferta.imagem %>" alt="<%= oferta.modelo %>">
+                <h2>
+                    <%= oferta.modelo %>
+                </h2>
+                <p><strong>Preço:</strong>
+                    <%= oferta.preco %>
+                </p>
+            </div>
+
+
+            <% }) %>
+
+    </div>
+</body>
+
+</html>

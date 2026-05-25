@@ -1,0 +1,32 @@
+[
+    {
+        "modelo": "Fiat Pulse",
+        "descricao": "SUV moderno e econômico.",
+        "imagem": "/img/novos/fiatpulse.png"
+    },
+    {
+        "modelo": "Jeep Compass",
+        "descricao": "Conforto e tecnologia premium.",
+        "imagem": "/img/novos/jeepcompass.png"
+    },
+    {
+        "modelo": "Toyota Yaris",
+        "descricao": "Excelente consumo e conforto.",
+        "imagem": "/img/novos/toyotayaris.png"
+    },
+    {
+        "modelo": "Hyundai Creta",
+        "descricao": "SUV completo e espaçoso.",
+        "imagem": "/img/novos/hyundaicreta.png"
+    },
+    {
+        "modelo": "Nivus",
+        "descricao": "Design esportivo e moderno.",
+        "imagem": "/img/novos/nivus.png"
+    },
+    {
+        "modelo": "Renegade",
+        "descricao": "SUV robusto e seguro.",
+        "imagem": "/img/novos/renegade.png"
+    }
+]

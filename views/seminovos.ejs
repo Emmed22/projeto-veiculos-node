@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seminovos</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/quemsou">Quem Sou</a>
+        <a href="/ofertas">Ofertas</a>
+        <a href="/novos">Novos</a>
+        <a href="/seminovos" class="active">Seminovos</a>
+    </nav>
+
+    <h1>Veículos Seminovos</h1>
+    <div class="container">
+
+        <% seminovos.forEach(seminovos=> { %>
+
+            <div class="card">
+                <img src="<%= seminovos.imagem %>">
+                <h2>
+                    <%= seminovos.modelo %>
+                </h2>
+
+                <p>
+                    <strong>Ponto positivo:</strong>
+                    <%= seminovos.positivo %>
+                </p>
+
+                <p>
+                    <strong>Ponto negativo:</strong>
+                    <%= seminovos.negativo %>
+                </p>
+            </div>
+
+            <% }) %>
+    </div>
+
+</body>
+
+</html>

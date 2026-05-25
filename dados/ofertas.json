@@ -1,0 +1,32 @@
+[
+    {
+        "modelo": "HB20",
+        "preco": "R$ 96.900",
+        "imagem": "/img/ofertas/hb20.png"
+    },
+    {
+        "modelo": "Onix",
+        "preco": "R$ 72.500",
+        "imagem": "/img/ofertas/onix.png"
+    },
+    {
+        "modelo": "Gol",
+        "preco": "R$ 55.000",
+        "imagem": "/img/ofertas/gol.png"
+    },
+    {
+        "modelo": "Corolla",
+        "preco": "R$125.000",
+        "imagem": "/img/ofertas/corolla.png"
+    },
+    {
+        "modelo": "Civic",
+        "preco": "118.000",
+        "imagem": "/img/ofertas/civic.png"
+    },
+    {
+        "modelo": "Tracker",
+        "preco": "R$ 132.000",
+        "imagem": "/img/ofertas/tracker.png"
+    }
+]

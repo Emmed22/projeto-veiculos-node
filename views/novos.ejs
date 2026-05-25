@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Novos</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/quemsou">Quem Sou</a>
+        <a href="/ofertas">Ofertas</a>
+        <a href="/novos" class="active">Novos</a>
+        <a href="/seminovos">Seminovos</a>
+    </nav>
+    <h1> Veículos Zero KM</h1>
+    <div class="container">
+
+        <% novos.forEach(novos=> { %>
+
+            <div class="card">
+                <img src="<%= novos.imagem %>">
+                <h2>
+                    <%= novos.modelo %>
+                </h2>
+                <p>
+                    <%= novos.descricao %>
+                </p>
+            </div>
+
+            <% }) %>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "modelo": "Celta 2012",
+        "positivo": "Baixo consumo",
+        "negativo": "Poucos itens de conforto",
+        "imagem": "/img/seminovos/celta.png"
+    },
+    {
+        "modelo": "Fox 2015",
+        "positivo": "Espaçoso",
+        "negativo": "Seguro caro",
+        "imagem": "/img/seminovos/fox.png"
+    },
+    {
+        "modelo": "Palio 2014",
+        "positivo": "Manutenção barata",
+        "negativo": "Motor fraco",
+        "imagem": "/img/seminovos/palio.png"
+    },
+    {
+        "modelo": "Ka 2016",
+        "positivo": "Econômico",
+        "negativo": "Porta-malas pequeno",
+        "imagem": "/img/seminovos/ka.png"
+    },
+    {
+        "modelo": "Sandero 2017",
+        "positivo": "Confortável",
+        "negativo": "Acabamento simples",
+        "imagem": "/img/seminovos/sandero.png"
+    },
+    {
+        "modelo": "Uno 2013",
+        "positivo": "Muito resistente",
+        "negativo": "Pouca tecnologia",
+        "imagem": "/img/seminovos/uno.png"
+    }
+]
